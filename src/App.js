@@ -4,11 +4,6 @@ import Movie from "./components/Movie";
 
 import config from "./config/dev"
 
-const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?api_key=211ad7c9e563f6ea964fdafbe396953a&sort_by=popularity.desc&page=1"
-
-const GENRE_API = "https://api.themoviedb.org/3/genre/movie/list?api_key=211ad7c9e563f6ea964fdafbe396953a"
-
-const SEARCHED_API = "https://api.themoviedb.org/3/search/movie?api_key=211ad7c9e563f6ea964fdafbe396953a&query="
 
 function App() {
   const [ movies, setMovies ] = useState([]);

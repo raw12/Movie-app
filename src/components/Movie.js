@@ -2,7 +2,6 @@ import React from "react";
 
 const IMG_API = "https://image.tmdb.org/t/p/original"
 
-const GENRE_API = "https://api.themoviedb.org/3/genre/movie/list?api_key=211ad7c9e563f6ea964fdafbe396953a"
 
 const setVoteClass = (vote) =>{
     if(vote>=8){
